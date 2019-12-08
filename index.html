@@ -167,7 +167,7 @@
 		  
         <div class="row justify-content-center block-9 py-5">
           <div class="col-md-7 order-md-last d-flex">
-            <form name="gform" method="post" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXIE1LuUMlyW5DDRU_IpEHVk9TxgYpmSA5Fq0nVSRQhq4dNw/formResponse?" onsubmit="submitted=true;" class="bg-light p-4 p-md-5 contact-form">
+            <form name="gform" method="post" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeXIE1LuUMlyW5DDRU_IpEHVk9TxgYpmSA5Fq0nVSRQhq4dNw/formResponse?" onsubmit="submitted=true;" class="bg-light p-4 p-md-5 contact-form" target="hidden_iframe" onsubmit="submitted=true;" >
               <div class="form-group">
                 <input type="text" class="form-control" name="entry.612133876" id="entry.612133876" placeholder="Your Name" required>
               </div>
@@ -193,7 +193,9 @@
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
 				</form>
-				  
+				
+			    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+			  
           </div>      
         </div>
       </div>
