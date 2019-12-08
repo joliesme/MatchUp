@@ -58,7 +58,7 @@ body {
   color: white; }
 
 .blue_stripe {
-	height: 40rem;
+	height: 105%;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -70,7 +70,7 @@ body {
 }
 
 .darkblue_stripe {
-	height: 50rem;
+	height: 110%;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
