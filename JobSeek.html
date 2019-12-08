@@ -173,7 +173,7 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-5 relative align-self-center">
-          <form name="beta1" enctype="text/plain" form action="https://docs.google.com/forms/d/e/1FAIpQLScEKHhsvEIkJPZTRXixgw0AwN-TMuILdmqcXv77A5ST_3Gthg/formResponse?" class="bg-light p-4 p-md-5 py-3 rounded pb_form_v1" target="hidden_iframe" onsubmit="submitted=true;" method="post">
+          <form name="gform" id="gform" enctype="text/plain" form action="https://docs.google.com/forms/d/e/1FAIpQLScEKHhsvEIkJPZTRXixgw0AwN-TMuILdmqcXv77A5ST_3Gthg/formResponse?" class="bg-light p-4 p-md-5 py-3 rounded pb_form_v1" target="hidden_iframe" onsubmit="submitted=true;" method="post">
               <div class="form-group">
                 <input type="text" class="form-control py-3 reverse" name="entry.612133876" id="entry.612133876" placeholder="Your Name*" required>
               </div>
@@ -202,9 +202,9 @@
 			  <script src="js/jquery.min.js"></script>
 				<script type="text/javascript">var submitted=false;</script>
 				<script type="text/javascript">
-				$('#beta1').on('submit', function(e) {
-				  $('#beta1').fadeOut(5000);
-				  $('#beta1').prepend('We have receievd your application for the beta program, and we will be getting back to you shortly!');
+				$('#gform').on('submit', function(e) {
+				  $('#gform').fadeOut(2000);
+				  $('#gform').prepend('We have receievd your application for the beta program, and we will be getting back to you shortly!');
 				  });
 				</script>
 				
