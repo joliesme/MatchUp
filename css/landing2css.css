@@ -45,7 +45,7 @@ body {
   background-color: #fff; }
 
 .pb_section {
-  padding: 10em 0; }
+  padding: 2em 0; }
 
 .pb_cover_v3 a, .pb_xl_py_cover a {
   color: rgba(255, 255, 255, 0.5);
@@ -56,3 +56,27 @@ body {
 
 .pb_cover_v3 .btn, .pb_xl_py_cover .btn {
   color: white; }
+
+.blue_stripe {
+	height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -25px;
+	left: 0;
+    right: 0;
+    transform: skewY(-8deg) scaleY(0.8);
+	background-image: url("../images/bluestripe.png");
+}
+
+.darkblue_stripe {
+	height: 50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -25px;
+	left: 0;
+    right: 0;
+    transform: skewY(-8deg) scaleY(0.8);
+	background-image: url("../images/darkbluestripe.png");
+}
