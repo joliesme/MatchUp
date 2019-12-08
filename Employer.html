@@ -29,7 +29,7 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="../MatchUp/index.html">MatchUp</a>
+	      <a class="navbar-brand" href="index.html">MatchUp</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -167,17 +167,20 @@
               <p class="mb-4">We are currently lauching our Beta Program. Do fill in the below form to indicate your interest and we will get back to you soon! </p>
             </div>
           </div>
+			
           <div class="col-md-1"></div>
           <div class="col-md-5 relative align-self-center">
-          <form name="gform" enctype="text/plain" class="bg-light p-4 p-md-5 py-3 px-5 contact-form" id="betaprog">
+          <form name="beta2" action="https://docs.google.com/forms/d/e/1FAIpQLSduUSavJIbQMkVVBwVdFla8GMoiZ2Cq9TIvLVw99TqYK9IjSQ/formResponse?" class="bg-light p-4 p-md-5 py-3 rounded pb_form_v1" target="hidden_iframe" onsubmit="submitted=true;" method="post" id="betaprog">
               <div class="form-group">
-                <input type="text" class="form-control py-3 reverse" name="name" placeholder="Your Name*" required>
+                <input type="text" class="form-control py-3 reverse" name="entry.612133876" id="entry.612133876" placeholder="Your Name*" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control py-3 reverse" name="emailadd" placeholder="Your Email*" autocomplete="on" required>
+                <input type="email" class="form-control py-3 reverse" name="entry.1392621778" id="entry.1392621778 placeholder="Your Email*" autocomplete="on" required>
               </div>
                 <div class="form-group">
-                  <input type="text" class="form-control py-3 reverse" name="positioncompany" placeholder="Position and Company" required>
+                  <input type="text" class="form-control py-3 reverse" name="entry.1228207796" id="entry.1228207796" placeholder="Position in company*" required>
+              </div>																						                  <div class="form-group">
+                  <input type="text" class="form-control py-3 reverse" name="entry.564095594" id="entry.564095594" placeholder="Company*" required>
               </div>
 				<div class="form-group">
 					<strong>Upload Job Description:</strong> 
@@ -189,7 +192,17 @@
               </div>
 					 
 				  </form>
-				
+																							 
+	         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+			  
+			  <script src="js/jquery.min.js"></script>
+				<script type="text/javascript">var submitted=false;</script>
+				<script type="text/javascript">
+				$('#beta1').on('submit', function(e) {
+				  $('#beta1').fadeOut(2000);
+				  $('#beta1').prepend('We have receievd your application for the beta program, and we will be getting back to you shortly!');
+				  });
+				</script>			
 				
               </div>
             </div>
