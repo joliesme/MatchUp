@@ -91,6 +91,6 @@ else {
 
 	mail( "$webmaster_email", "Feedback Form Results", $msg );
 
-	header( "Location: $feedback_page" );
+	header( "Location: $thankyou_page" );
 }
 ?>
