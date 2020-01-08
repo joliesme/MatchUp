@@ -10239,7 +10239,7 @@ hr {
   margin-bottom: 0px;
 }
 
-@media (max-width: 413px) {
+@media (min-width: 413px) {
   /* line 293, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_home.scss */
   .quote-area .estimated-cost .form-wrap {
     padding: 0px;
