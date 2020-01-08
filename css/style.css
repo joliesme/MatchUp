@@ -10136,6 +10136,7 @@ hr {
       border-radius: 50%;
       background: rgba(31, 47, 66, 0.5); }
 
+@media (min-width: 413px) {
 .year-experience-99302 {
   border: 4px solid #1f2f42;
   padding: 40px;
@@ -10178,13 +10179,8 @@ hr {
       height: 70px;
       border-radius: 50%;
       background: rgba(31, 47, 66, 0.5); }
-
-@media (max-width: 767px) {
-  /* line 263, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_home.scss */
-  .year-experience-99302 .text .number {
-    display: none
-  }
 }
+
 
 .quote-area {
   position: relative;
