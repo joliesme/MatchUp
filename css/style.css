@@ -10227,9 +10227,11 @@ hr {
   padding: 30px 40px 50px;
 }
 
+@media (min-width: 413px) {
 /* line 284, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_home.scss */
 .quote-area .estimated-cost {
   box-shadow: 0px 10px 30px -10px rgba(127,171,224,0.5);
+}
 }
 
 /* line 286, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_home.scss */
