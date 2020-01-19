@@ -8602,7 +8602,9 @@ h1, h2, h3, h4, h5,
   height: 100%;
   position: inherit;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow: auto;
+   }
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -10418,3 +10420,6 @@ hr {
       height: 70px;
       border-radius: 50%;
       background: rgba(31, 47, 66, 0.5); }
+.owl-carousel.owl-drag .owl-item{
+  touch-action:inherit!important;
+}
