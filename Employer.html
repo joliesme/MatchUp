@@ -136,7 +136,7 @@
           <div class="col-md">
             <div id="pb_faq" class="pb_accordion" data-children=".item">
               <div class="item">
-                <a data-toggle="collapse" href="#pb_faq2" aria-expanded="false" aria-controls="pb_faq2" class="p-4 px-5">How does the MatchUp.sg alogrithm work?</a>
+                <a data-toggle="collapse" href="#pb_faq2" aria-expanded="false" aria-controls="pb_faq2" class="p-4 px-5">How does the MatchUp.sg algorithm work?</a>
                 <div id="pb_faq2" class="collapse" role="tabpanel">
                   <div class="p-4 px-5">
                     <p>Profiling of students would be based on soft skils (eg. their career aspirations, personality, character, goals, and interests) and hard skills (eg. CV and past experiences). Our specially designed algorithm will be used to match companies and students together.</p>
@@ -194,23 +194,18 @@
               </div>
                 <div class="form-group">
                   <input type="text" class="form-control py-3 reverse" name="Position in Company" id="positionincompany" placeholder="Position in company*" required>
-              </div>																						                 
+              </div>
+			  
+			                  <div class="form-group">
+                  <input type="text" class="form-control py-3 reverse" name="Where did you learn about us?" id="knowus" placeholder="Where did you learn about us?*" required>
+              </div>
 				   
 					               <div class="form-group"> 
                 <input type="submit" value="Apply for Beta" class="btn btn-primary py-3 px-5" >
               </div>
 					 
 				  </form>
-																							 
-	         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-			  
-			  <script src="js/jquery.min.js"></script>
-				<script type="text/javascript">var submitted=false;</script>
-				<script type="text/javascript">
-				$('#employerbeta').on('submit', function(e) {
-				  $('#employerbeta').prepend('We have received your application for the beta program, and we will be getting back to you shortly!');
-				  });
-				</script>			
+																								
 				
               </div>
             </div>
