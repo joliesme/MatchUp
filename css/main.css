@@ -141,9 +141,9 @@ Primary use:
   z-index: 0;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 10;
   left: 0;
-  background-color: #000;
+  background-color: #FFF;
 }
 
 .simpleslide100-item {
@@ -202,8 +202,8 @@ Primary use:
 }
 
 .l1-txt2 {
-  font-family: Playlist Script;
-  font-size: 180px;
+  font-family: Futura;
+  font-size: 100px;
   color: #fff;
   line-height: 1.1;
 }
